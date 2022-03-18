@@ -1,17 +1,17 @@
-#include <stdio.h>
+#include <main.h>
 
 int _isupper(int c)
 {
 	char upperCase = 'A';
-	int isUpper = 0;
+	int isupper = 0;
 
 	for(upperCase; upperCase <= 'Z'; upperCase++)
 	{
 		if(c == upperCase)
 		{
-			isUpper = 1;
+			isupper = 1;
 			break;
 		}
 	}
-	return (isUpper);
+	return (isupper);
 }
